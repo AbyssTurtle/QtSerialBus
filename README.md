@@ -4,4 +4,5 @@
 
 
 This project modify QtSerialBus Qt5.15.10 to compile under Qt 5.12.10.
+
 Modify some code to cope in special circumstances: bus receive incomplete bytes but timeout, cause next retry fail.
